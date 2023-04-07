@@ -1738,3 +1738,59 @@ Received Import Request.
   path: Assets/Scripts/HideCursor.cs
   artifactKey: Guid(2f15911da1299b566a103f7dc4a8c700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/HideCursor.cs using Guid(2f15911da1299b566a103f7dc4a8c700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c7dd462fa5f0fed6d2770726a00654') in 0,015450 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 2,265046 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /media/eros/DATA/dev/game-development/unity/fps-game/My project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /media/eros/DATA/dev/game-development/unity/fps-game/My project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1048,93 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 67,679 seconds
+Domain Reload Profiling:
+	ReloadAssembly (67787ms)
+		BeginReloadAssembly (6582ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (487ms)
+		EndReloadAssembly (46377ms)
+			LoadAssemblies (7746ms)
+			RebuildTransferFunctionScriptingTraits (62ms)
+			SetupTypeCache (923ms)
+			ReleaseScriptCaches (65ms)
+			RebuildScriptCaches (126ms)
+			SetupLoadedEditorAssemblies (41494ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (83ms)
+				SetLoadedEditorAssemblies (26ms)
+				RefreshPlugins (1065ms)
+				BeforeProcessingInitializeOnLoad (38547ms)
+				ProcessInitializeOnLoadAttributes (1505ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (234ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 117,20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3416 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (310,6 KB). Loaded Objects now: 4002.
+Memory consumption went from 122,5 MB to 122,2 MB.
+Total: 207,630922 ms (FindLiveObjects: 21,370274 ms CreateObjectMapping: 0,422619 ms MarkObjects: 178,288006 ms  DeleteObjects: 7,547378 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
