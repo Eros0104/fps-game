@@ -349,6 +349,7 @@
 "Assets/PSXShaderKit/Scripts/PSXShaderManager.cs"
 "Assets/Scripts/EventOnlyInteractable.cs"
 "Assets/Scripts/Gun.cs"
+"Assets/Scripts/HideCursor.cs"
 "Assets/Scripts/InputManager.cs"
 "Assets/Scripts/Interactable.cs"
 "Assets/Scripts/Interactables/Keypad.cs"
